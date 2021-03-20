@@ -1,0 +1,10 @@
+module SumB( 
+    input  S17,
+	 input overflow,
+	 input [7:0] A,
+	 input [7:0] soma
+    );
+    
+	assign Pos  = (A[7] ? ~A + 1 : A);
+	
+endmodule

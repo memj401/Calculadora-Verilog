@@ -1,0 +1,93 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -6.651
+TNS   : -79.090
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -5.536
+TNS   : -821.119
+
+Type  : Slow Model Setup 'KEY[0]'
+Slack : -0.381
+TNS   : -0.482
+
+Type  : Slow Model Hold 'KEY[0]'
+Slack : -3.204
+TNS   : -16.720
+
+Type  : Slow Model Hold 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -2.217
+TNS   : -4.020
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -0.572
+TNS   : -1.854
+
+Type  : Slow Model Recovery 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : 0.392
+TNS   : 0.000
+
+Type  : Slow Model Removal 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -1.189
+TNS   : -16.673
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -209.380
+
+Type  : Slow Model Minimum Pulse Width 'KEY[0]'
+Slack : -1.380
+TNS   : -1.380
+
+Type  : Slow Model Minimum Pulse Width 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -2.789
+TNS   : -27.890
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -2.029
+TNS   : -281.614
+
+Type  : Fast Model Setup 'KEY[0]'
+Slack : 0.305
+TNS   : 0.000
+
+Type  : Fast Model Hold 'KEY[0]'
+Slack : -1.586
+TNS   : -8.513
+
+Type  : Fast Model Hold 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -1.334
+TNS   : -2.476
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -0.593
+TNS   : -3.239
+
+Type  : Fast Model Recovery 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : 0.666
+TNS   : 0.000
+
+Type  : Fast Model Removal 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : -0.716
+TNS   : -10.143
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -209.380
+
+Type  : Fast Model Minimum Pulse Width 'KEY[0]'
+Slack : -1.380
+TNS   : -1.380
+
+Type  : Fast Model Minimum Pulse Width 'teclado:inst5|controlador:U0|tecla[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

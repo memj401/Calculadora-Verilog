@@ -1,0 +1,13 @@
+module controlador(
+	input [3:0] tecla,
+	input [7:0] load,
+	input [7:0] calcresult,
+	input reset,
+	input overflow,
+	output [3:0] regadress,
+	output [7:0] A,
+	output [7:0] B,
+	output regwrite,
+	output cin,
+	output [7:0] store
+	); 

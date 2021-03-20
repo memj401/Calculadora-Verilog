@@ -1,0 +1,14 @@
+module mux8(
+input [7:0] Bin
+output [7..0] Bp
+);
+Bin[0] = ~Bin[0]
+Bin[1] = ~Bin[1]
+Bin[2] = ~Bin[2]
+Bin[3] = ~Bin[3]
+Bin[0] = ~
+Bin[0] = ~
+Bin[0] = ~
+Bin[0] = ~
+Bin[0] = ~
+endmodule

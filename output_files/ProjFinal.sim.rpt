@@ -1,0 +1,865 @@
+Simulator report for ProjFinal
+Fri Nov 01 04:30:02 2019
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 352 nodes    ;
+; Simulation Coverage         ;       0.00 % ;
+; Total Number of Transitions ; 0            ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                          ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                        ; Default Value ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                     ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                           ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                            ;               ;
+; Vector input source                                                                        ; G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/Waveform.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                             ; On            ;
+; Check outputs                                                                              ; Off                                                            ; Off           ;
+; Report simulation coverage                                                                 ; On                                                             ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                             ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                             ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                             ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                            ; Off           ;
+; Detect glitches                                                                            ; Off                                                            ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                            ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                            ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                            ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                            ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                             ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                     ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                            ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                            ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                           ; Auto          ;
++--------------------------------------------------------------------------------------------+----------------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 64-Bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 352          ;
+; Total output ports checked                          ; 352          ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 352          ;
+; Total output ports with no 1-value coverage         ; 352          ;
+; Total output ports with no 0-value coverage         ; 352          ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++----------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                       ;
++----------------------------------------------+----------------------------------------------+------------------+
+; Node Name                                    ; Output Port Name                             ; Output Port Type ;
++----------------------------------------------+----------------------------------------------+------------------+
+; |Display|over                                ; |Display|over                                ; pin_out          ;
+; |Display|SW[17]                              ; |Display|SW[17]                              ; out              ;
+; |Display|SW[16]                              ; |Display|SW[16]                              ; out              ;
+; |Display|SW[15]                              ; |Display|SW[15]                              ; out              ;
+; |Display|SW[14]                              ; |Display|SW[14]                              ; out              ;
+; |Display|SW[13]                              ; |Display|SW[13]                              ; out              ;
+; |Display|SW[12]                              ; |Display|SW[12]                              ; out              ;
+; |Display|SW[11]                              ; |Display|SW[11]                              ; out              ;
+; |Display|SW[10]                              ; |Display|SW[10]                              ; out              ;
+; |Display|SW[9]                               ; |Display|SW[9]                               ; out              ;
+; |Display|SW[8]                               ; |Display|SW[8]                               ; out              ;
+; |Display|SW[7]                               ; |Display|SW[7]                               ; out              ;
+; |Display|SW[6]                               ; |Display|SW[6]                               ; out              ;
+; |Display|SW[5]                               ; |Display|SW[5]                               ; out              ;
+; |Display|SW[4]                               ; |Display|SW[4]                               ; out              ;
+; |Display|SW[3]                               ; |Display|SW[3]                               ; out              ;
+; |Display|SW[2]                               ; |Display|SW[2]                               ; out              ;
+; |Display|SW[1]                               ; |Display|SW[1]                               ; out              ;
+; |Display|SW[0]                               ; |Display|SW[0]                               ; out              ;
+; |Display|HEX0[6]                             ; |Display|HEX0[6]                             ; pin_out          ;
+; |Display|HEX0[5]                             ; |Display|HEX0[5]                             ; pin_out          ;
+; |Display|HEX0[4]                             ; |Display|HEX0[4]                             ; pin_out          ;
+; |Display|HEX0[3]                             ; |Display|HEX0[3]                             ; pin_out          ;
+; |Display|HEX0[2]                             ; |Display|HEX0[2]                             ; pin_out          ;
+; |Display|HEX0[1]                             ; |Display|HEX0[1]                             ; pin_out          ;
+; |Display|HEX0[0]                             ; |Display|HEX0[0]                             ; pin_out          ;
+; |Display|HEX1[6]                             ; |Display|HEX1[6]                             ; pin_out          ;
+; |Display|HEX1[5]                             ; |Display|HEX1[5]                             ; pin_out          ;
+; |Display|HEX1[4]                             ; |Display|HEX1[4]                             ; pin_out          ;
+; |Display|HEX1[3]                             ; |Display|HEX1[3]                             ; pin_out          ;
+; |Display|HEX1[2]                             ; |Display|HEX1[2]                             ; pin_out          ;
+; |Display|HEX1[1]                             ; |Display|HEX1[1]                             ; pin_out          ;
+; |Display|HEX1[0]                             ; |Display|HEX1[0]                             ; pin_out          ;
+; |Display|HEX2[6]                             ; |Display|HEX2[6]                             ; pin_out          ;
+; |Display|HEX2[5]                             ; |Display|HEX2[5]                             ; pin_out          ;
+; |Display|HEX2[4]                             ; |Display|HEX2[4]                             ; pin_out          ;
+; |Display|HEX2[3]                             ; |Display|HEX2[3]                             ; pin_out          ;
+; |Display|HEX2[2]                             ; |Display|HEX2[2]                             ; pin_out          ;
+; |Display|HEX2[1]                             ; |Display|HEX2[1]                             ; pin_out          ;
+; |Display|HEX2[0]                             ; |Display|HEX2[0]                             ; pin_out          ;
+; |Display|HEX3[6]                             ; |Display|HEX3[6]                             ; pin_out          ;
+; |Display|HEX3[5]                             ; |Display|HEX3[5]                             ; pin_out          ;
+; |Display|HEX3[4]                             ; |Display|HEX3[4]                             ; pin_out          ;
+; |Display|HEX3[3]                             ; |Display|HEX3[3]                             ; pin_out          ;
+; |Display|HEX3[2]                             ; |Display|HEX3[2]                             ; pin_out          ;
+; |Display|HEX3[1]                             ; |Display|HEX3[1]                             ; pin_out          ;
+; |Display|HEX3[0]                             ; |Display|HEX3[0]                             ; pin_out          ;
+; |Display|HEX4[6]                             ; |Display|HEX4[6]                             ; pin_out          ;
+; |Display|HEX4[5]                             ; |Display|HEX4[5]                             ; pin_out          ;
+; |Display|HEX4[4]                             ; |Display|HEX4[4]                             ; pin_out          ;
+; |Display|HEX4[3]                             ; |Display|HEX4[3]                             ; pin_out          ;
+; |Display|HEX4[2]                             ; |Display|HEX4[2]                             ; pin_out          ;
+; |Display|HEX4[1]                             ; |Display|HEX4[1]                             ; pin_out          ;
+; |Display|HEX4[0]                             ; |Display|HEX4[0]                             ; pin_out          ;
+; |Display|HEX5[6]                             ; |Display|HEX5[6]                             ; pin_out          ;
+; |Display|HEX5[5]                             ; |Display|HEX5[5]                             ; pin_out          ;
+; |Display|HEX5[4]                             ; |Display|HEX5[4]                             ; pin_out          ;
+; |Display|HEX5[3]                             ; |Display|HEX5[3]                             ; pin_out          ;
+; |Display|HEX5[2]                             ; |Display|HEX5[2]                             ; pin_out          ;
+; |Display|HEX5[1]                             ; |Display|HEX5[1]                             ; pin_out          ;
+; |Display|HEX5[0]                             ; |Display|HEX5[0]                             ; pin_out          ;
+; |Display|HEX6[6]                             ; |Display|HEX6[6]                             ; pin_out          ;
+; |Display|HEX6[5]                             ; |Display|HEX6[5]                             ; pin_out          ;
+; |Display|HEX6[4]                             ; |Display|HEX6[4]                             ; pin_out          ;
+; |Display|HEX6[3]                             ; |Display|HEX6[3]                             ; pin_out          ;
+; |Display|HEX6[2]                             ; |Display|HEX6[2]                             ; pin_out          ;
+; |Display|HEX6[1]                             ; |Display|HEX6[1]                             ; pin_out          ;
+; |Display|HEX6[0]                             ; |Display|HEX6[0]                             ; pin_out          ;
+; |Display|HEX7[6]                             ; |Display|HEX7[6]                             ; pin_out          ;
+; |Display|HEX7[5]                             ; |Display|HEX7[5]                             ; pin_out          ;
+; |Display|HEX7[4]                             ; |Display|HEX7[4]                             ; pin_out          ;
+; |Display|HEX7[3]                             ; |Display|HEX7[3]                             ; pin_out          ;
+; |Display|HEX7[2]                             ; |Display|HEX7[2]                             ; pin_out          ;
+; |Display|HEX7[1]                             ; |Display|HEX7[1]                             ; pin_out          ;
+; |Display|HEX7[0]                             ; |Display|HEX7[0]                             ; pin_out          ;
+; |Display|SOMA[7]                             ; |Display|SOMA[7]                             ; pin_out          ;
+; |Display|SOMA[6]                             ; |Display|SOMA[6]                             ; pin_out          ;
+; |Display|SOMA[5]                             ; |Display|SOMA[5]                             ; pin_out          ;
+; |Display|SOMA[4]                             ; |Display|SOMA[4]                             ; pin_out          ;
+; |Display|SOMA[3]                             ; |Display|SOMA[3]                             ; pin_out          ;
+; |Display|SOMA[2]                             ; |Display|SOMA[2]                             ; pin_out          ;
+; |Display|SOMA[1]                             ; |Display|SOMA[1]                             ; pin_out          ;
+; |Display|SOMA[0]                             ; |Display|SOMA[0]                             ; pin_out          ;
+; |Display|BCDtoDisplay:inst35|WideOr0         ; |Display|BCDtoDisplay:inst35|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst35|WideOr1         ; |Display|BCDtoDisplay:inst35|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst35|WideOr2         ; |Display|BCDtoDisplay:inst35|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr0         ; |Display|BCDtoDisplay:inst34|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr1         ; |Display|BCDtoDisplay:inst34|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr2         ; |Display|BCDtoDisplay:inst34|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr3         ; |Display|BCDtoDisplay:inst34|WideOr3         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr4         ; |Display|BCDtoDisplay:inst34|WideOr4         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr5         ; |Display|BCDtoDisplay:inst34|WideOr5         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr6         ; |Display|BCDtoDisplay:inst34|WideOr6         ; out0             ;
+; |Display|toMod:inst31|Pos[7]                 ; |Display|toMod:inst31|Pos[7]                 ; out              ;
+; |Display|toMod:inst31|Pos[6]                 ; |Display|toMod:inst31|Pos[6]                 ; out              ;
+; |Display|toMod:inst31|Pos[5]                 ; |Display|toMod:inst31|Pos[5]                 ; out              ;
+; |Display|toMod:inst31|Pos[4]                 ; |Display|toMod:inst31|Pos[4]                 ; out              ;
+; |Display|toMod:inst31|Pos[3]                 ; |Display|toMod:inst31|Pos[3]                 ; out              ;
+; |Display|toMod:inst31|Pos[2]                 ; |Display|toMod:inst31|Pos[2]                 ; out              ;
+; |Display|toMod:inst31|Pos[1]                 ; |Display|toMod:inst31|Pos[1]                 ; out              ;
+; |Display|BinBCD:inst32|74185:inst2|41        ; |Display|BinBCD:inst32|74185:inst2|41        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|29        ; |Display|BinBCD:inst32|74185:inst2|29        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|32        ; |Display|BinBCD:inst32|74185:inst2|32        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|35        ; |Display|BinBCD:inst32|74185:inst2|35        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|36        ; |Display|BinBCD:inst32|74185:inst2|36        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|37        ; |Display|BinBCD:inst32|74185:inst2|37        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|43        ; |Display|BinBCD:inst32|74185:inst2|43        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|20        ; |Display|BinBCD:inst32|74185:inst2|20        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|21        ; |Display|BinBCD:inst32|74185:inst2|21        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|22        ; |Display|BinBCD:inst32|74185:inst2|22        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|24        ; |Display|BinBCD:inst32|74185:inst2|24        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|25        ; |Display|BinBCD:inst32|74185:inst2|25        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|45        ; |Display|BinBCD:inst32|74185:inst2|45        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|17        ; |Display|BinBCD:inst32|74185:inst2|17        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|15        ; |Display|BinBCD:inst32|74185:inst2|15        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|14        ; |Display|BinBCD:inst32|74185:inst2|14        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|81        ; |Display|BinBCD:inst32|74185:inst2|81        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|12        ; |Display|BinBCD:inst32|74185:inst2|12        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|11        ; |Display|BinBCD:inst32|74185:inst2|11        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|46        ; |Display|BinBCD:inst32|74185:inst2|46        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|8         ; |Display|BinBCD:inst32|74185:inst2|8         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|7         ; |Display|BinBCD:inst32|74185:inst2|7         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|82        ; |Display|BinBCD:inst32|74185:inst2|82        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|4         ; |Display|BinBCD:inst32|74185:inst2|4         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|5         ; |Display|BinBCD:inst32|74185:inst2|5         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|6         ; |Display|BinBCD:inst32|74185:inst2|6         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|41         ; |Display|BinBCD:inst32|74185:inst|41         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|30         ; |Display|BinBCD:inst32|74185:inst|30         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|29         ; |Display|BinBCD:inst32|74185:inst|29         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|31         ; |Display|BinBCD:inst32|74185:inst|31         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|32         ; |Display|BinBCD:inst32|74185:inst|32         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|33         ; |Display|BinBCD:inst32|74185:inst|33         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|34         ; |Display|BinBCD:inst32|74185:inst|34         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|35         ; |Display|BinBCD:inst32|74185:inst|35         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|36         ; |Display|BinBCD:inst32|74185:inst|36         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|37         ; |Display|BinBCD:inst32|74185:inst|37         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|38         ; |Display|BinBCD:inst32|74185:inst|38         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|43         ; |Display|BinBCD:inst32|74185:inst|43         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|20         ; |Display|BinBCD:inst32|74185:inst|20         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|21         ; |Display|BinBCD:inst32|74185:inst|21         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|22         ; |Display|BinBCD:inst32|74185:inst|22         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|23         ; |Display|BinBCD:inst32|74185:inst|23         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|24         ; |Display|BinBCD:inst32|74185:inst|24         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|25         ; |Display|BinBCD:inst32|74185:inst|25         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|26         ; |Display|BinBCD:inst32|74185:inst|26         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|27         ; |Display|BinBCD:inst32|74185:inst|27         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|28         ; |Display|BinBCD:inst32|74185:inst|28         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|45         ; |Display|BinBCD:inst32|74185:inst|45         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|19         ; |Display|BinBCD:inst32|74185:inst|19         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|18         ; |Display|BinBCD:inst32|74185:inst|18         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|17         ; |Display|BinBCD:inst32|74185:inst|17         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|16         ; |Display|BinBCD:inst32|74185:inst|16         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|15         ; |Display|BinBCD:inst32|74185:inst|15         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|14         ; |Display|BinBCD:inst32|74185:inst|14         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|81         ; |Display|BinBCD:inst32|74185:inst|81         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|13         ; |Display|BinBCD:inst32|74185:inst|13         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|12         ; |Display|BinBCD:inst32|74185:inst|12         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|11         ; |Display|BinBCD:inst32|74185:inst|11         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|46         ; |Display|BinBCD:inst32|74185:inst|46         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|10         ; |Display|BinBCD:inst32|74185:inst|10         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|9          ; |Display|BinBCD:inst32|74185:inst|9          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|8          ; |Display|BinBCD:inst32|74185:inst|8          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|7          ; |Display|BinBCD:inst32|74185:inst|7          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|82         ; |Display|BinBCD:inst32|74185:inst|82         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|3          ; |Display|BinBCD:inst32|74185:inst|3          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|4          ; |Display|BinBCD:inst32|74185:inst|4          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|5          ; |Display|BinBCD:inst32|74185:inst|5          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|6          ; |Display|BinBCD:inst32|74185:inst|6          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|48         ; |Display|BinBCD:inst32|74185:inst|48         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|2          ; |Display|BinBCD:inst32|74185:inst|2          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|41        ; |Display|BinBCD:inst32|74185:inst1|41        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|30        ; |Display|BinBCD:inst32|74185:inst1|30        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|29        ; |Display|BinBCD:inst32|74185:inst1|29        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|31        ; |Display|BinBCD:inst32|74185:inst1|31        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|32        ; |Display|BinBCD:inst32|74185:inst1|32        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|33        ; |Display|BinBCD:inst32|74185:inst1|33        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|34        ; |Display|BinBCD:inst32|74185:inst1|34        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|35        ; |Display|BinBCD:inst32|74185:inst1|35        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|36        ; |Display|BinBCD:inst32|74185:inst1|36        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|37        ; |Display|BinBCD:inst32|74185:inst1|37        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|38        ; |Display|BinBCD:inst32|74185:inst1|38        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|43        ; |Display|BinBCD:inst32|74185:inst1|43        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|20        ; |Display|BinBCD:inst32|74185:inst1|20        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|21        ; |Display|BinBCD:inst32|74185:inst1|21        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|22        ; |Display|BinBCD:inst32|74185:inst1|22        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|23        ; |Display|BinBCD:inst32|74185:inst1|23        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|24        ; |Display|BinBCD:inst32|74185:inst1|24        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|25        ; |Display|BinBCD:inst32|74185:inst1|25        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|26        ; |Display|BinBCD:inst32|74185:inst1|26        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|27        ; |Display|BinBCD:inst32|74185:inst1|27        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|28        ; |Display|BinBCD:inst32|74185:inst1|28        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|45        ; |Display|BinBCD:inst32|74185:inst1|45        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|19        ; |Display|BinBCD:inst32|74185:inst1|19        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|18        ; |Display|BinBCD:inst32|74185:inst1|18        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|17        ; |Display|BinBCD:inst32|74185:inst1|17        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|16        ; |Display|BinBCD:inst32|74185:inst1|16        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|15        ; |Display|BinBCD:inst32|74185:inst1|15        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|14        ; |Display|BinBCD:inst32|74185:inst1|14        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|81        ; |Display|BinBCD:inst32|74185:inst1|81        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|13        ; |Display|BinBCD:inst32|74185:inst1|13        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|12        ; |Display|BinBCD:inst32|74185:inst1|12        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|11        ; |Display|BinBCD:inst32|74185:inst1|11        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|46        ; |Display|BinBCD:inst32|74185:inst1|46        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|10        ; |Display|BinBCD:inst32|74185:inst1|10        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|9         ; |Display|BinBCD:inst32|74185:inst1|9         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|8         ; |Display|BinBCD:inst32|74185:inst1|8         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|7         ; |Display|BinBCD:inst32|74185:inst1|7         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|82        ; |Display|BinBCD:inst32|74185:inst1|82        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|3         ; |Display|BinBCD:inst32|74185:inst1|3         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|4         ; |Display|BinBCD:inst32|74185:inst1|4         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|5         ; |Display|BinBCD:inst32|74185:inst1|5         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|6         ; |Display|BinBCD:inst32|74185:inst1|6         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr0         ; |Display|BCDtoDisplay:inst33|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr1         ; |Display|BCDtoDisplay:inst33|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr2         ; |Display|BCDtoDisplay:inst33|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr3         ; |Display|BCDtoDisplay:inst33|WideOr3         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr4         ; |Display|BCDtoDisplay:inst33|WideOr4         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr5         ; |Display|BCDtoDisplay:inst33|WideOr5         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr6         ; |Display|BCDtoDisplay:inst33|WideOr6         ; out0             ;
+; |Display|SumA:inst29|D4[6]                   ; |Display|SumA:inst29|D4[6]                   ; out              ;
+; |Display|SumA:inst29|D4[5]                   ; |Display|SumA:inst29|D4[5]                   ; out              ;
+; |Display|SumA:inst29|D4[4]                   ; |Display|SumA:inst29|D4[4]                   ; out              ;
+; |Display|SumA:inst29|D4[3]                   ; |Display|SumA:inst29|D4[3]                   ; out              ;
+; |Display|SumA:inst29|D4[2]                   ; |Display|SumA:inst29|D4[2]                   ; out              ;
+; |Display|SumA:inst29|D4[1]                   ; |Display|SumA:inst29|D4[1]                   ; out              ;
+; |Display|SumA:inst29|D4[0]                   ; |Display|SumA:inst29|D4[0]                   ; out              ;
+; |Display|SumA:inst29|D5[6]                   ; |Display|SumA:inst29|D5[6]                   ; out              ;
+; |Display|SumA:inst29|D5[5]                   ; |Display|SumA:inst29|D5[5]                   ; out              ;
+; |Display|SumA:inst29|D5[4]                   ; |Display|SumA:inst29|D5[4]                   ; out              ;
+; |Display|SumA:inst29|D5[3]                   ; |Display|SumA:inst29|D5[3]                   ; out              ;
+; |Display|SumA:inst29|D5[2]                   ; |Display|SumA:inst29|D5[2]                   ; out              ;
+; |Display|SumA:inst29|D5[1]                   ; |Display|SumA:inst29|D5[1]                   ; out              ;
+; |Display|SumA:inst29|D5[0]                   ; |Display|SumA:inst29|D5[0]                   ; out              ;
+; |Display|SumA:inst29|D6[6]                   ; |Display|SumA:inst29|D6[6]                   ; out              ;
+; |Display|SumA:inst29|D6[5]                   ; |Display|SumA:inst29|D6[5]                   ; out              ;
+; |Display|SumA:inst29|D6[4]                   ; |Display|SumA:inst29|D6[4]                   ; out              ;
+; |Display|SumA:inst29|D6[3]                   ; |Display|SumA:inst29|D6[3]                   ; out              ;
+; |Display|SumA:inst29|D6[2]                   ; |Display|SumA:inst29|D6[2]                   ; out              ;
+; |Display|SumA:inst29|D6[0]                   ; |Display|SumA:inst29|D6[0]                   ; out              ;
+; |Display|SumA:inst29|D7[6]                   ; |Display|SumA:inst29|D7[6]                   ; out              ;
+; |Display|adder8:inst11|bin[0]                ; |Display|adder8:inst11|bin[0]                ; out0             ;
+; |Display|adder8:inst11|bin[1]                ; |Display|adder8:inst11|bin[1]                ; out0             ;
+; |Display|adder8:inst11|bin[2]                ; |Display|adder8:inst11|bin[2]                ; out0             ;
+; |Display|adder8:inst11|bin[3]                ; |Display|adder8:inst11|bin[3]                ; out0             ;
+; |Display|adder8:inst11|bin[4]                ; |Display|adder8:inst11|bin[4]                ; out0             ;
+; |Display|adder8:inst11|bin[5]                ; |Display|adder8:inst11|bin[5]                ; out0             ;
+; |Display|adder8:inst11|bin[6]                ; |Display|adder8:inst11|bin[6]                ; out0             ;
+; |Display|adder8:inst11|bin[7]                ; |Display|adder8:inst11|bin[7]                ; out0             ;
+; |Display|adder8:inst11|overflow              ; |Display|adder8:inst11|overflow              ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|sum~0  ; |Display|adder8:inst11|full_adder:FA7|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|sum    ; |Display|adder8:inst11|full_adder:FA7|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~0 ; |Display|adder8:inst11|full_adder:FA7|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~1 ; |Display|adder8:inst11|full_adder:FA7|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~2 ; |Display|adder8:inst11|full_adder:FA7|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~3 ; |Display|adder8:inst11|full_adder:FA7|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout   ; |Display|adder8:inst11|full_adder:FA7|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|sum~0  ; |Display|adder8:inst11|full_adder:FA6|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|sum    ; |Display|adder8:inst11|full_adder:FA6|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~0 ; |Display|adder8:inst11|full_adder:FA6|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~1 ; |Display|adder8:inst11|full_adder:FA6|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~2 ; |Display|adder8:inst11|full_adder:FA6|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~3 ; |Display|adder8:inst11|full_adder:FA6|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout   ; |Display|adder8:inst11|full_adder:FA6|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|sum~0  ; |Display|adder8:inst11|full_adder:FA5|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|sum    ; |Display|adder8:inst11|full_adder:FA5|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~0 ; |Display|adder8:inst11|full_adder:FA5|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~1 ; |Display|adder8:inst11|full_adder:FA5|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~2 ; |Display|adder8:inst11|full_adder:FA5|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~3 ; |Display|adder8:inst11|full_adder:FA5|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout   ; |Display|adder8:inst11|full_adder:FA5|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|sum~0  ; |Display|adder8:inst11|full_adder:FA4|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|sum    ; |Display|adder8:inst11|full_adder:FA4|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~0 ; |Display|adder8:inst11|full_adder:FA4|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~1 ; |Display|adder8:inst11|full_adder:FA4|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~2 ; |Display|adder8:inst11|full_adder:FA4|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~3 ; |Display|adder8:inst11|full_adder:FA4|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout   ; |Display|adder8:inst11|full_adder:FA4|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|sum~0  ; |Display|adder8:inst11|full_adder:FA3|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|sum    ; |Display|adder8:inst11|full_adder:FA3|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~0 ; |Display|adder8:inst11|full_adder:FA3|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~1 ; |Display|adder8:inst11|full_adder:FA3|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~2 ; |Display|adder8:inst11|full_adder:FA3|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~3 ; |Display|adder8:inst11|full_adder:FA3|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout   ; |Display|adder8:inst11|full_adder:FA3|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|sum~0  ; |Display|adder8:inst11|full_adder:FA2|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|sum    ; |Display|adder8:inst11|full_adder:FA2|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~0 ; |Display|adder8:inst11|full_adder:FA2|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~1 ; |Display|adder8:inst11|full_adder:FA2|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~2 ; |Display|adder8:inst11|full_adder:FA2|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~3 ; |Display|adder8:inst11|full_adder:FA2|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout   ; |Display|adder8:inst11|full_adder:FA2|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|sum~0  ; |Display|adder8:inst11|full_adder:FA1|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|sum    ; |Display|adder8:inst11|full_adder:FA1|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~0 ; |Display|adder8:inst11|full_adder:FA1|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~1 ; |Display|adder8:inst11|full_adder:FA1|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~2 ; |Display|adder8:inst11|full_adder:FA1|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~3 ; |Display|adder8:inst11|full_adder:FA1|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout   ; |Display|adder8:inst11|full_adder:FA1|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|sum~0  ; |Display|adder8:inst11|full_adder:FA0|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|sum    ; |Display|adder8:inst11|full_adder:FA0|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~0 ; |Display|adder8:inst11|full_adder:FA0|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~1 ; |Display|adder8:inst11|full_adder:FA0|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~2 ; |Display|adder8:inst11|full_adder:FA0|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~3 ; |Display|adder8:inst11|full_adder:FA0|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout   ; |Display|adder8:inst11|full_adder:FA0|cout   ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~0      ; |Display|BCDtoDisplay:inst35|Decoder0~0      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~1      ; |Display|BCDtoDisplay:inst35|Decoder0~1      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~2      ; |Display|BCDtoDisplay:inst35|Decoder0~2      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~3      ; |Display|BCDtoDisplay:inst35|Decoder0~3      ; out0             ;
+; |Display|BCDtoDisplay:inst34|Decoder0~0      ; |Display|BCDtoDisplay:inst34|Decoder0~0      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~1      ; |Display|BCDtoDisplay:inst34|Decoder0~1      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~2      ; |Display|BCDtoDisplay:inst34|Decoder0~2      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~3      ; |Display|BCDtoDisplay:inst34|Decoder0~3      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~4      ; |Display|BCDtoDisplay:inst34|Decoder0~4      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~5      ; |Display|BCDtoDisplay:inst34|Decoder0~5      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~6      ; |Display|BCDtoDisplay:inst34|Decoder0~6      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~7      ; |Display|BCDtoDisplay:inst34|Decoder0~7      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~8      ; |Display|BCDtoDisplay:inst34|Decoder0~8      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~9      ; |Display|BCDtoDisplay:inst34|Decoder0~9      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~10     ; |Display|BCDtoDisplay:inst34|Decoder0~10     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~11     ; |Display|BCDtoDisplay:inst34|Decoder0~11     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~12     ; |Display|BCDtoDisplay:inst34|Decoder0~12     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~13     ; |Display|BCDtoDisplay:inst34|Decoder0~13     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~14     ; |Display|BCDtoDisplay:inst34|Decoder0~14     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~0      ; |Display|BCDtoDisplay:inst33|Decoder0~0      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~1      ; |Display|BCDtoDisplay:inst33|Decoder0~1      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~2      ; |Display|BCDtoDisplay:inst33|Decoder0~2      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~3      ; |Display|BCDtoDisplay:inst33|Decoder0~3      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~4      ; |Display|BCDtoDisplay:inst33|Decoder0~4      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~5      ; |Display|BCDtoDisplay:inst33|Decoder0~5      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~6      ; |Display|BCDtoDisplay:inst33|Decoder0~6      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~7      ; |Display|BCDtoDisplay:inst33|Decoder0~7      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~8      ; |Display|BCDtoDisplay:inst33|Decoder0~8      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~9      ; |Display|BCDtoDisplay:inst33|Decoder0~9      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~10     ; |Display|BCDtoDisplay:inst33|Decoder0~10     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~11     ; |Display|BCDtoDisplay:inst33|Decoder0~11     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~12     ; |Display|BCDtoDisplay:inst33|Decoder0~12     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~13     ; |Display|BCDtoDisplay:inst33|Decoder0~13     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~14     ; |Display|BCDtoDisplay:inst33|Decoder0~14     ; out              ;
+; |Display|toMod:inst31|Add0~0                 ; |Display|toMod:inst31|Add0~0                 ; out0             ;
+; |Display|toMod:inst31|Add0~1                 ; |Display|toMod:inst31|Add0~1                 ; out0             ;
+; |Display|toMod:inst31|Add0~2                 ; |Display|toMod:inst31|Add0~2                 ; out0             ;
+; |Display|toMod:inst31|Add0~3                 ; |Display|toMod:inst31|Add0~3                 ; out0             ;
+; |Display|toMod:inst31|Add0~4                 ; |Display|toMod:inst31|Add0~4                 ; out0             ;
+; |Display|toMod:inst31|Add0~5                 ; |Display|toMod:inst31|Add0~5                 ; out0             ;
+; |Display|toMod:inst31|Add0~6                 ; |Display|toMod:inst31|Add0~6                 ; out0             ;
+; |Display|toMod:inst31|Add0~7                 ; |Display|toMod:inst31|Add0~7                 ; out0             ;
+; |Display|toMod:inst31|Add0~8                 ; |Display|toMod:inst31|Add0~8                 ; out0             ;
+; |Display|toMod:inst31|Add0~9                 ; |Display|toMod:inst31|Add0~9                 ; out0             ;
+; |Display|toMod:inst31|Add0~10                ; |Display|toMod:inst31|Add0~10                ; out0             ;
+; |Display|toMod:inst31|Add0~11                ; |Display|toMod:inst31|Add0~11                ; out0             ;
+; |Display|toMod:inst31|Add0~12                ; |Display|toMod:inst31|Add0~12                ; out0             ;
++----------------------------------------------+----------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++----------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                       ;
++----------------------------------------------+----------------------------------------------+------------------+
+; Node Name                                    ; Output Port Name                             ; Output Port Type ;
++----------------------------------------------+----------------------------------------------+------------------+
+; |Display|over                                ; |Display|over                                ; pin_out          ;
+; |Display|SW[17]                              ; |Display|SW[17]                              ; out              ;
+; |Display|SW[16]                              ; |Display|SW[16]                              ; out              ;
+; |Display|SW[15]                              ; |Display|SW[15]                              ; out              ;
+; |Display|SW[14]                              ; |Display|SW[14]                              ; out              ;
+; |Display|SW[13]                              ; |Display|SW[13]                              ; out              ;
+; |Display|SW[12]                              ; |Display|SW[12]                              ; out              ;
+; |Display|SW[11]                              ; |Display|SW[11]                              ; out              ;
+; |Display|SW[10]                              ; |Display|SW[10]                              ; out              ;
+; |Display|SW[9]                               ; |Display|SW[9]                               ; out              ;
+; |Display|SW[8]                               ; |Display|SW[8]                               ; out              ;
+; |Display|SW[7]                               ; |Display|SW[7]                               ; out              ;
+; |Display|SW[6]                               ; |Display|SW[6]                               ; out              ;
+; |Display|SW[5]                               ; |Display|SW[5]                               ; out              ;
+; |Display|SW[4]                               ; |Display|SW[4]                               ; out              ;
+; |Display|SW[3]                               ; |Display|SW[3]                               ; out              ;
+; |Display|SW[2]                               ; |Display|SW[2]                               ; out              ;
+; |Display|SW[1]                               ; |Display|SW[1]                               ; out              ;
+; |Display|SW[0]                               ; |Display|SW[0]                               ; out              ;
+; |Display|HEX0[6]                             ; |Display|HEX0[6]                             ; pin_out          ;
+; |Display|HEX0[5]                             ; |Display|HEX0[5]                             ; pin_out          ;
+; |Display|HEX0[4]                             ; |Display|HEX0[4]                             ; pin_out          ;
+; |Display|HEX0[3]                             ; |Display|HEX0[3]                             ; pin_out          ;
+; |Display|HEX0[2]                             ; |Display|HEX0[2]                             ; pin_out          ;
+; |Display|HEX0[1]                             ; |Display|HEX0[1]                             ; pin_out          ;
+; |Display|HEX0[0]                             ; |Display|HEX0[0]                             ; pin_out          ;
+; |Display|HEX1[6]                             ; |Display|HEX1[6]                             ; pin_out          ;
+; |Display|HEX1[5]                             ; |Display|HEX1[5]                             ; pin_out          ;
+; |Display|HEX1[4]                             ; |Display|HEX1[4]                             ; pin_out          ;
+; |Display|HEX1[3]                             ; |Display|HEX1[3]                             ; pin_out          ;
+; |Display|HEX1[2]                             ; |Display|HEX1[2]                             ; pin_out          ;
+; |Display|HEX1[1]                             ; |Display|HEX1[1]                             ; pin_out          ;
+; |Display|HEX1[0]                             ; |Display|HEX1[0]                             ; pin_out          ;
+; |Display|HEX2[6]                             ; |Display|HEX2[6]                             ; pin_out          ;
+; |Display|HEX2[5]                             ; |Display|HEX2[5]                             ; pin_out          ;
+; |Display|HEX2[4]                             ; |Display|HEX2[4]                             ; pin_out          ;
+; |Display|HEX2[3]                             ; |Display|HEX2[3]                             ; pin_out          ;
+; |Display|HEX2[2]                             ; |Display|HEX2[2]                             ; pin_out          ;
+; |Display|HEX2[1]                             ; |Display|HEX2[1]                             ; pin_out          ;
+; |Display|HEX2[0]                             ; |Display|HEX2[0]                             ; pin_out          ;
+; |Display|HEX3[6]                             ; |Display|HEX3[6]                             ; pin_out          ;
+; |Display|HEX3[5]                             ; |Display|HEX3[5]                             ; pin_out          ;
+; |Display|HEX3[4]                             ; |Display|HEX3[4]                             ; pin_out          ;
+; |Display|HEX3[3]                             ; |Display|HEX3[3]                             ; pin_out          ;
+; |Display|HEX3[2]                             ; |Display|HEX3[2]                             ; pin_out          ;
+; |Display|HEX3[1]                             ; |Display|HEX3[1]                             ; pin_out          ;
+; |Display|HEX3[0]                             ; |Display|HEX3[0]                             ; pin_out          ;
+; |Display|HEX4[6]                             ; |Display|HEX4[6]                             ; pin_out          ;
+; |Display|HEX4[5]                             ; |Display|HEX4[5]                             ; pin_out          ;
+; |Display|HEX4[4]                             ; |Display|HEX4[4]                             ; pin_out          ;
+; |Display|HEX4[3]                             ; |Display|HEX4[3]                             ; pin_out          ;
+; |Display|HEX4[2]                             ; |Display|HEX4[2]                             ; pin_out          ;
+; |Display|HEX4[1]                             ; |Display|HEX4[1]                             ; pin_out          ;
+; |Display|HEX4[0]                             ; |Display|HEX4[0]                             ; pin_out          ;
+; |Display|HEX5[6]                             ; |Display|HEX5[6]                             ; pin_out          ;
+; |Display|HEX5[5]                             ; |Display|HEX5[5]                             ; pin_out          ;
+; |Display|HEX5[4]                             ; |Display|HEX5[4]                             ; pin_out          ;
+; |Display|HEX5[3]                             ; |Display|HEX5[3]                             ; pin_out          ;
+; |Display|HEX5[2]                             ; |Display|HEX5[2]                             ; pin_out          ;
+; |Display|HEX5[1]                             ; |Display|HEX5[1]                             ; pin_out          ;
+; |Display|HEX5[0]                             ; |Display|HEX5[0]                             ; pin_out          ;
+; |Display|HEX6[6]                             ; |Display|HEX6[6]                             ; pin_out          ;
+; |Display|HEX6[5]                             ; |Display|HEX6[5]                             ; pin_out          ;
+; |Display|HEX6[4]                             ; |Display|HEX6[4]                             ; pin_out          ;
+; |Display|HEX6[3]                             ; |Display|HEX6[3]                             ; pin_out          ;
+; |Display|HEX6[2]                             ; |Display|HEX6[2]                             ; pin_out          ;
+; |Display|HEX6[1]                             ; |Display|HEX6[1]                             ; pin_out          ;
+; |Display|HEX6[0]                             ; |Display|HEX6[0]                             ; pin_out          ;
+; |Display|HEX7[6]                             ; |Display|HEX7[6]                             ; pin_out          ;
+; |Display|HEX7[5]                             ; |Display|HEX7[5]                             ; pin_out          ;
+; |Display|HEX7[4]                             ; |Display|HEX7[4]                             ; pin_out          ;
+; |Display|HEX7[3]                             ; |Display|HEX7[3]                             ; pin_out          ;
+; |Display|HEX7[2]                             ; |Display|HEX7[2]                             ; pin_out          ;
+; |Display|HEX7[1]                             ; |Display|HEX7[1]                             ; pin_out          ;
+; |Display|HEX7[0]                             ; |Display|HEX7[0]                             ; pin_out          ;
+; |Display|SOMA[7]                             ; |Display|SOMA[7]                             ; pin_out          ;
+; |Display|SOMA[6]                             ; |Display|SOMA[6]                             ; pin_out          ;
+; |Display|SOMA[5]                             ; |Display|SOMA[5]                             ; pin_out          ;
+; |Display|SOMA[4]                             ; |Display|SOMA[4]                             ; pin_out          ;
+; |Display|SOMA[3]                             ; |Display|SOMA[3]                             ; pin_out          ;
+; |Display|SOMA[2]                             ; |Display|SOMA[2]                             ; pin_out          ;
+; |Display|SOMA[1]                             ; |Display|SOMA[1]                             ; pin_out          ;
+; |Display|SOMA[0]                             ; |Display|SOMA[0]                             ; pin_out          ;
+; |Display|BCDtoDisplay:inst35|WideOr0         ; |Display|BCDtoDisplay:inst35|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst35|WideOr1         ; |Display|BCDtoDisplay:inst35|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst35|WideOr2         ; |Display|BCDtoDisplay:inst35|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr0         ; |Display|BCDtoDisplay:inst34|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr1         ; |Display|BCDtoDisplay:inst34|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr2         ; |Display|BCDtoDisplay:inst34|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr3         ; |Display|BCDtoDisplay:inst34|WideOr3         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr4         ; |Display|BCDtoDisplay:inst34|WideOr4         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr5         ; |Display|BCDtoDisplay:inst34|WideOr5         ; out0             ;
+; |Display|BCDtoDisplay:inst34|WideOr6         ; |Display|BCDtoDisplay:inst34|WideOr6         ; out0             ;
+; |Display|toMod:inst31|Pos[7]                 ; |Display|toMod:inst31|Pos[7]                 ; out              ;
+; |Display|toMod:inst31|Pos[6]                 ; |Display|toMod:inst31|Pos[6]                 ; out              ;
+; |Display|toMod:inst31|Pos[5]                 ; |Display|toMod:inst31|Pos[5]                 ; out              ;
+; |Display|toMod:inst31|Pos[4]                 ; |Display|toMod:inst31|Pos[4]                 ; out              ;
+; |Display|toMod:inst31|Pos[3]                 ; |Display|toMod:inst31|Pos[3]                 ; out              ;
+; |Display|toMod:inst31|Pos[2]                 ; |Display|toMod:inst31|Pos[2]                 ; out              ;
+; |Display|toMod:inst31|Pos[1]                 ; |Display|toMod:inst31|Pos[1]                 ; out              ;
+; |Display|BinBCD:inst32|74185:inst2|41        ; |Display|BinBCD:inst32|74185:inst2|41        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|29        ; |Display|BinBCD:inst32|74185:inst2|29        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|32        ; |Display|BinBCD:inst32|74185:inst2|32        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|35        ; |Display|BinBCD:inst32|74185:inst2|35        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|36        ; |Display|BinBCD:inst32|74185:inst2|36        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|37        ; |Display|BinBCD:inst32|74185:inst2|37        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|43        ; |Display|BinBCD:inst32|74185:inst2|43        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|20        ; |Display|BinBCD:inst32|74185:inst2|20        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|21        ; |Display|BinBCD:inst32|74185:inst2|21        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|22        ; |Display|BinBCD:inst32|74185:inst2|22        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|24        ; |Display|BinBCD:inst32|74185:inst2|24        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|25        ; |Display|BinBCD:inst32|74185:inst2|25        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|45        ; |Display|BinBCD:inst32|74185:inst2|45        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|17        ; |Display|BinBCD:inst32|74185:inst2|17        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|15        ; |Display|BinBCD:inst32|74185:inst2|15        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|14        ; |Display|BinBCD:inst32|74185:inst2|14        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|81        ; |Display|BinBCD:inst32|74185:inst2|81        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|12        ; |Display|BinBCD:inst32|74185:inst2|12        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|11        ; |Display|BinBCD:inst32|74185:inst2|11        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|46        ; |Display|BinBCD:inst32|74185:inst2|46        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|8         ; |Display|BinBCD:inst32|74185:inst2|8         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|7         ; |Display|BinBCD:inst32|74185:inst2|7         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|82        ; |Display|BinBCD:inst32|74185:inst2|82        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|4         ; |Display|BinBCD:inst32|74185:inst2|4         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|5         ; |Display|BinBCD:inst32|74185:inst2|5         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst2|6         ; |Display|BinBCD:inst32|74185:inst2|6         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|41         ; |Display|BinBCD:inst32|74185:inst|41         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|30         ; |Display|BinBCD:inst32|74185:inst|30         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|29         ; |Display|BinBCD:inst32|74185:inst|29         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|31         ; |Display|BinBCD:inst32|74185:inst|31         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|32         ; |Display|BinBCD:inst32|74185:inst|32         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|33         ; |Display|BinBCD:inst32|74185:inst|33         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|34         ; |Display|BinBCD:inst32|74185:inst|34         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|35         ; |Display|BinBCD:inst32|74185:inst|35         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|36         ; |Display|BinBCD:inst32|74185:inst|36         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|37         ; |Display|BinBCD:inst32|74185:inst|37         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|38         ; |Display|BinBCD:inst32|74185:inst|38         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|43         ; |Display|BinBCD:inst32|74185:inst|43         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|20         ; |Display|BinBCD:inst32|74185:inst|20         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|21         ; |Display|BinBCD:inst32|74185:inst|21         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|22         ; |Display|BinBCD:inst32|74185:inst|22         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|23         ; |Display|BinBCD:inst32|74185:inst|23         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|24         ; |Display|BinBCD:inst32|74185:inst|24         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|25         ; |Display|BinBCD:inst32|74185:inst|25         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|26         ; |Display|BinBCD:inst32|74185:inst|26         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|27         ; |Display|BinBCD:inst32|74185:inst|27         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|28         ; |Display|BinBCD:inst32|74185:inst|28         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|45         ; |Display|BinBCD:inst32|74185:inst|45         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|19         ; |Display|BinBCD:inst32|74185:inst|19         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|18         ; |Display|BinBCD:inst32|74185:inst|18         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|17         ; |Display|BinBCD:inst32|74185:inst|17         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|16         ; |Display|BinBCD:inst32|74185:inst|16         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|15         ; |Display|BinBCD:inst32|74185:inst|15         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|14         ; |Display|BinBCD:inst32|74185:inst|14         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|81         ; |Display|BinBCD:inst32|74185:inst|81         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|13         ; |Display|BinBCD:inst32|74185:inst|13         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|12         ; |Display|BinBCD:inst32|74185:inst|12         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|11         ; |Display|BinBCD:inst32|74185:inst|11         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|46         ; |Display|BinBCD:inst32|74185:inst|46         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|10         ; |Display|BinBCD:inst32|74185:inst|10         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|9          ; |Display|BinBCD:inst32|74185:inst|9          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|8          ; |Display|BinBCD:inst32|74185:inst|8          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|7          ; |Display|BinBCD:inst32|74185:inst|7          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|82         ; |Display|BinBCD:inst32|74185:inst|82         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|3          ; |Display|BinBCD:inst32|74185:inst|3          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|4          ; |Display|BinBCD:inst32|74185:inst|4          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|5          ; |Display|BinBCD:inst32|74185:inst|5          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|6          ; |Display|BinBCD:inst32|74185:inst|6          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|48         ; |Display|BinBCD:inst32|74185:inst|48         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst|2          ; |Display|BinBCD:inst32|74185:inst|2          ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|41        ; |Display|BinBCD:inst32|74185:inst1|41        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|30        ; |Display|BinBCD:inst32|74185:inst1|30        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|29        ; |Display|BinBCD:inst32|74185:inst1|29        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|31        ; |Display|BinBCD:inst32|74185:inst1|31        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|32        ; |Display|BinBCD:inst32|74185:inst1|32        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|33        ; |Display|BinBCD:inst32|74185:inst1|33        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|34        ; |Display|BinBCD:inst32|74185:inst1|34        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|35        ; |Display|BinBCD:inst32|74185:inst1|35        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|36        ; |Display|BinBCD:inst32|74185:inst1|36        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|37        ; |Display|BinBCD:inst32|74185:inst1|37        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|38        ; |Display|BinBCD:inst32|74185:inst1|38        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|43        ; |Display|BinBCD:inst32|74185:inst1|43        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|20        ; |Display|BinBCD:inst32|74185:inst1|20        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|21        ; |Display|BinBCD:inst32|74185:inst1|21        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|22        ; |Display|BinBCD:inst32|74185:inst1|22        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|23        ; |Display|BinBCD:inst32|74185:inst1|23        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|24        ; |Display|BinBCD:inst32|74185:inst1|24        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|25        ; |Display|BinBCD:inst32|74185:inst1|25        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|26        ; |Display|BinBCD:inst32|74185:inst1|26        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|27        ; |Display|BinBCD:inst32|74185:inst1|27        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|28        ; |Display|BinBCD:inst32|74185:inst1|28        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|45        ; |Display|BinBCD:inst32|74185:inst1|45        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|19        ; |Display|BinBCD:inst32|74185:inst1|19        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|18        ; |Display|BinBCD:inst32|74185:inst1|18        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|17        ; |Display|BinBCD:inst32|74185:inst1|17        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|16        ; |Display|BinBCD:inst32|74185:inst1|16        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|15        ; |Display|BinBCD:inst32|74185:inst1|15        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|14        ; |Display|BinBCD:inst32|74185:inst1|14        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|81        ; |Display|BinBCD:inst32|74185:inst1|81        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|13        ; |Display|BinBCD:inst32|74185:inst1|13        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|12        ; |Display|BinBCD:inst32|74185:inst1|12        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|11        ; |Display|BinBCD:inst32|74185:inst1|11        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|46        ; |Display|BinBCD:inst32|74185:inst1|46        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|10        ; |Display|BinBCD:inst32|74185:inst1|10        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|9         ; |Display|BinBCD:inst32|74185:inst1|9         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|8         ; |Display|BinBCD:inst32|74185:inst1|8         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|7         ; |Display|BinBCD:inst32|74185:inst1|7         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|82        ; |Display|BinBCD:inst32|74185:inst1|82        ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|3         ; |Display|BinBCD:inst32|74185:inst1|3         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|4         ; |Display|BinBCD:inst32|74185:inst1|4         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|5         ; |Display|BinBCD:inst32|74185:inst1|5         ; out0             ;
+; |Display|BinBCD:inst32|74185:inst1|6         ; |Display|BinBCD:inst32|74185:inst1|6         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr0         ; |Display|BCDtoDisplay:inst33|WideOr0         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr1         ; |Display|BCDtoDisplay:inst33|WideOr1         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr2         ; |Display|BCDtoDisplay:inst33|WideOr2         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr3         ; |Display|BCDtoDisplay:inst33|WideOr3         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr4         ; |Display|BCDtoDisplay:inst33|WideOr4         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr5         ; |Display|BCDtoDisplay:inst33|WideOr5         ; out0             ;
+; |Display|BCDtoDisplay:inst33|WideOr6         ; |Display|BCDtoDisplay:inst33|WideOr6         ; out0             ;
+; |Display|SumA:inst29|D4[6]                   ; |Display|SumA:inst29|D4[6]                   ; out              ;
+; |Display|SumA:inst29|D4[5]                   ; |Display|SumA:inst29|D4[5]                   ; out              ;
+; |Display|SumA:inst29|D4[4]                   ; |Display|SumA:inst29|D4[4]                   ; out              ;
+; |Display|SumA:inst29|D4[3]                   ; |Display|SumA:inst29|D4[3]                   ; out              ;
+; |Display|SumA:inst29|D4[2]                   ; |Display|SumA:inst29|D4[2]                   ; out              ;
+; |Display|SumA:inst29|D4[1]                   ; |Display|SumA:inst29|D4[1]                   ; out              ;
+; |Display|SumA:inst29|D4[0]                   ; |Display|SumA:inst29|D4[0]                   ; out              ;
+; |Display|SumA:inst29|D5[6]                   ; |Display|SumA:inst29|D5[6]                   ; out              ;
+; |Display|SumA:inst29|D5[5]                   ; |Display|SumA:inst29|D5[5]                   ; out              ;
+; |Display|SumA:inst29|D5[4]                   ; |Display|SumA:inst29|D5[4]                   ; out              ;
+; |Display|SumA:inst29|D5[3]                   ; |Display|SumA:inst29|D5[3]                   ; out              ;
+; |Display|SumA:inst29|D5[2]                   ; |Display|SumA:inst29|D5[2]                   ; out              ;
+; |Display|SumA:inst29|D5[1]                   ; |Display|SumA:inst29|D5[1]                   ; out              ;
+; |Display|SumA:inst29|D5[0]                   ; |Display|SumA:inst29|D5[0]                   ; out              ;
+; |Display|SumA:inst29|D6[6]                   ; |Display|SumA:inst29|D6[6]                   ; out              ;
+; |Display|SumA:inst29|D6[5]                   ; |Display|SumA:inst29|D6[5]                   ; out              ;
+; |Display|SumA:inst29|D6[4]                   ; |Display|SumA:inst29|D6[4]                   ; out              ;
+; |Display|SumA:inst29|D6[3]                   ; |Display|SumA:inst29|D6[3]                   ; out              ;
+; |Display|SumA:inst29|D6[2]                   ; |Display|SumA:inst29|D6[2]                   ; out              ;
+; |Display|SumA:inst29|D6[0]                   ; |Display|SumA:inst29|D6[0]                   ; out              ;
+; |Display|SumA:inst29|D7[6]                   ; |Display|SumA:inst29|D7[6]                   ; out              ;
+; |Display|adder8:inst11|bin[0]                ; |Display|adder8:inst11|bin[0]                ; out0             ;
+; |Display|adder8:inst11|bin[1]                ; |Display|adder8:inst11|bin[1]                ; out0             ;
+; |Display|adder8:inst11|bin[2]                ; |Display|adder8:inst11|bin[2]                ; out0             ;
+; |Display|adder8:inst11|bin[3]                ; |Display|adder8:inst11|bin[3]                ; out0             ;
+; |Display|adder8:inst11|bin[4]                ; |Display|adder8:inst11|bin[4]                ; out0             ;
+; |Display|adder8:inst11|bin[5]                ; |Display|adder8:inst11|bin[5]                ; out0             ;
+; |Display|adder8:inst11|bin[6]                ; |Display|adder8:inst11|bin[6]                ; out0             ;
+; |Display|adder8:inst11|bin[7]                ; |Display|adder8:inst11|bin[7]                ; out0             ;
+; |Display|adder8:inst11|overflow              ; |Display|adder8:inst11|overflow              ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|sum~0  ; |Display|adder8:inst11|full_adder:FA7|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|sum    ; |Display|adder8:inst11|full_adder:FA7|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~0 ; |Display|adder8:inst11|full_adder:FA7|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~1 ; |Display|adder8:inst11|full_adder:FA7|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~2 ; |Display|adder8:inst11|full_adder:FA7|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout~3 ; |Display|adder8:inst11|full_adder:FA7|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA7|cout   ; |Display|adder8:inst11|full_adder:FA7|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|sum~0  ; |Display|adder8:inst11|full_adder:FA6|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|sum    ; |Display|adder8:inst11|full_adder:FA6|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~0 ; |Display|adder8:inst11|full_adder:FA6|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~1 ; |Display|adder8:inst11|full_adder:FA6|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~2 ; |Display|adder8:inst11|full_adder:FA6|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout~3 ; |Display|adder8:inst11|full_adder:FA6|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA6|cout   ; |Display|adder8:inst11|full_adder:FA6|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|sum~0  ; |Display|adder8:inst11|full_adder:FA5|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|sum    ; |Display|adder8:inst11|full_adder:FA5|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~0 ; |Display|adder8:inst11|full_adder:FA5|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~1 ; |Display|adder8:inst11|full_adder:FA5|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~2 ; |Display|adder8:inst11|full_adder:FA5|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout~3 ; |Display|adder8:inst11|full_adder:FA5|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA5|cout   ; |Display|adder8:inst11|full_adder:FA5|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|sum~0  ; |Display|adder8:inst11|full_adder:FA4|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|sum    ; |Display|adder8:inst11|full_adder:FA4|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~0 ; |Display|adder8:inst11|full_adder:FA4|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~1 ; |Display|adder8:inst11|full_adder:FA4|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~2 ; |Display|adder8:inst11|full_adder:FA4|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout~3 ; |Display|adder8:inst11|full_adder:FA4|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA4|cout   ; |Display|adder8:inst11|full_adder:FA4|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|sum~0  ; |Display|adder8:inst11|full_adder:FA3|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|sum    ; |Display|adder8:inst11|full_adder:FA3|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~0 ; |Display|adder8:inst11|full_adder:FA3|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~1 ; |Display|adder8:inst11|full_adder:FA3|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~2 ; |Display|adder8:inst11|full_adder:FA3|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout~3 ; |Display|adder8:inst11|full_adder:FA3|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA3|cout   ; |Display|adder8:inst11|full_adder:FA3|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|sum~0  ; |Display|adder8:inst11|full_adder:FA2|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|sum    ; |Display|adder8:inst11|full_adder:FA2|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~0 ; |Display|adder8:inst11|full_adder:FA2|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~1 ; |Display|adder8:inst11|full_adder:FA2|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~2 ; |Display|adder8:inst11|full_adder:FA2|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout~3 ; |Display|adder8:inst11|full_adder:FA2|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA2|cout   ; |Display|adder8:inst11|full_adder:FA2|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|sum~0  ; |Display|adder8:inst11|full_adder:FA1|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|sum    ; |Display|adder8:inst11|full_adder:FA1|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~0 ; |Display|adder8:inst11|full_adder:FA1|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~1 ; |Display|adder8:inst11|full_adder:FA1|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~2 ; |Display|adder8:inst11|full_adder:FA1|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout~3 ; |Display|adder8:inst11|full_adder:FA1|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA1|cout   ; |Display|adder8:inst11|full_adder:FA1|cout   ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|sum~0  ; |Display|adder8:inst11|full_adder:FA0|sum~0  ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|sum    ; |Display|adder8:inst11|full_adder:FA0|sum    ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~0 ; |Display|adder8:inst11|full_adder:FA0|cout~0 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~1 ; |Display|adder8:inst11|full_adder:FA0|cout~1 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~2 ; |Display|adder8:inst11|full_adder:FA0|cout~2 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout~3 ; |Display|adder8:inst11|full_adder:FA0|cout~3 ; out0             ;
+; |Display|adder8:inst11|full_adder:FA0|cout   ; |Display|adder8:inst11|full_adder:FA0|cout   ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~0      ; |Display|BCDtoDisplay:inst35|Decoder0~0      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~1      ; |Display|BCDtoDisplay:inst35|Decoder0~1      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~2      ; |Display|BCDtoDisplay:inst35|Decoder0~2      ; out0             ;
+; |Display|BCDtoDisplay:inst35|Decoder0~3      ; |Display|BCDtoDisplay:inst35|Decoder0~3      ; out0             ;
+; |Display|BCDtoDisplay:inst34|Decoder0~0      ; |Display|BCDtoDisplay:inst34|Decoder0~0      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~1      ; |Display|BCDtoDisplay:inst34|Decoder0~1      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~2      ; |Display|BCDtoDisplay:inst34|Decoder0~2      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~3      ; |Display|BCDtoDisplay:inst34|Decoder0~3      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~4      ; |Display|BCDtoDisplay:inst34|Decoder0~4      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~5      ; |Display|BCDtoDisplay:inst34|Decoder0~5      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~6      ; |Display|BCDtoDisplay:inst34|Decoder0~6      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~7      ; |Display|BCDtoDisplay:inst34|Decoder0~7      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~8      ; |Display|BCDtoDisplay:inst34|Decoder0~8      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~9      ; |Display|BCDtoDisplay:inst34|Decoder0~9      ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~10     ; |Display|BCDtoDisplay:inst34|Decoder0~10     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~11     ; |Display|BCDtoDisplay:inst34|Decoder0~11     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~12     ; |Display|BCDtoDisplay:inst34|Decoder0~12     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~13     ; |Display|BCDtoDisplay:inst34|Decoder0~13     ; out              ;
+; |Display|BCDtoDisplay:inst34|Decoder0~14     ; |Display|BCDtoDisplay:inst34|Decoder0~14     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~0      ; |Display|BCDtoDisplay:inst33|Decoder0~0      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~1      ; |Display|BCDtoDisplay:inst33|Decoder0~1      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~2      ; |Display|BCDtoDisplay:inst33|Decoder0~2      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~3      ; |Display|BCDtoDisplay:inst33|Decoder0~3      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~4      ; |Display|BCDtoDisplay:inst33|Decoder0~4      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~5      ; |Display|BCDtoDisplay:inst33|Decoder0~5      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~6      ; |Display|BCDtoDisplay:inst33|Decoder0~6      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~7      ; |Display|BCDtoDisplay:inst33|Decoder0~7      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~8      ; |Display|BCDtoDisplay:inst33|Decoder0~8      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~9      ; |Display|BCDtoDisplay:inst33|Decoder0~9      ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~10     ; |Display|BCDtoDisplay:inst33|Decoder0~10     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~11     ; |Display|BCDtoDisplay:inst33|Decoder0~11     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~12     ; |Display|BCDtoDisplay:inst33|Decoder0~12     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~13     ; |Display|BCDtoDisplay:inst33|Decoder0~13     ; out              ;
+; |Display|BCDtoDisplay:inst33|Decoder0~14     ; |Display|BCDtoDisplay:inst33|Decoder0~14     ; out              ;
+; |Display|toMod:inst31|Add0~0                 ; |Display|toMod:inst31|Add0~0                 ; out0             ;
+; |Display|toMod:inst31|Add0~1                 ; |Display|toMod:inst31|Add0~1                 ; out0             ;
+; |Display|toMod:inst31|Add0~2                 ; |Display|toMod:inst31|Add0~2                 ; out0             ;
+; |Display|toMod:inst31|Add0~3                 ; |Display|toMod:inst31|Add0~3                 ; out0             ;
+; |Display|toMod:inst31|Add0~4                 ; |Display|toMod:inst31|Add0~4                 ; out0             ;
+; |Display|toMod:inst31|Add0~5                 ; |Display|toMod:inst31|Add0~5                 ; out0             ;
+; |Display|toMod:inst31|Add0~6                 ; |Display|toMod:inst31|Add0~6                 ; out0             ;
+; |Display|toMod:inst31|Add0~7                 ; |Display|toMod:inst31|Add0~7                 ; out0             ;
+; |Display|toMod:inst31|Add0~8                 ; |Display|toMod:inst31|Add0~8                 ; out0             ;
+; |Display|toMod:inst31|Add0~9                 ; |Display|toMod:inst31|Add0~9                 ; out0             ;
+; |Display|toMod:inst31|Add0~10                ; |Display|toMod:inst31|Add0~10                ; out0             ;
+; |Display|toMod:inst31|Add0~11                ; |Display|toMod:inst31|Add0~11                ; out0             ;
+; |Display|toMod:inst31|Add0~12                ; |Display|toMod:inst31|Add0~12                ; out0             ;
++----------------------------------------------+----------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Nov 01 04:30:02 2019
+Info: Command: quartus_sim --simulation_results_format=VWF ProjFinal -c ProjFinal
+Info (324025): Using vector source file "G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/Waveform.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is       0.00 %
+Info (328052): Number of transitions in simulation is 0
+Info (324045): Vector file ProjFinal.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 64-Bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4449 megabytes
+    Info: Processing ended: Fri Nov 01 04:30:02 2019
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:01
+
+

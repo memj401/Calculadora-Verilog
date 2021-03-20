@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dG:\Users\Marcos Eduardo\Desktop\LabCl- Proj Final\simulation\modelsim
+vadder8
+I0XhIGCGoZlF`M9:><]knW0
+VUEVYMKmGDf3afNVVi@KeP1
+Z1 dG:\Users\Marcos Eduardo\Desktop\LabCl- Proj Final\simulation\modelsim
+w1572231054
+8G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/adder8.v
+FG:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/adder8.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 CPl>FRC3mcDD3CVVf43g`0
+!s85 0
+!s108 1572572788.783000
+!s107 G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/adder8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final|G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/adder8.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work {+incdir+G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final} -O0
+vfull_adder
+!i10b 1
+!s100 fmTaV>`<1F=L502Z1oBFI2
+ID?R]U@L?]=?0@BUFGjZ[21
+V<dO^MA9^g2_aHabUdVn7W2
+R1
+w1572231122
+8G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/full_adder.v
+FG:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/full_adder.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1572572788.980000
+!s107 G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/full_adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final|G:/Users/Marcos Eduardo/Desktop/LabCl- Proj Final/full_adder.v|
+!s101 -O0
+R3
+R4
